@@ -8,7 +8,9 @@ const Abhi = () => {
       <p>
         We are looking for an excelleent and kind service cum delivery partner.
       </p>
-      <button>Register</button>
+      <button>
+        <a href="#">Applynow</a>
+      </button>
     </div>
   );
 };

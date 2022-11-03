@@ -4,6 +4,10 @@
   box-sizing: border-box;
   font-family: "Grold-Regular";
 }
+button a {
+  text-decoration: none;
+  color: white;
+}
 .hero_1 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)),
     url("../hero/img/building.jpg");
