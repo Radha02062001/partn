@@ -1,0 +1,51 @@
+@font-face{
+    font-family: "Grold-Regular";
+    src:url(./Font/Grold-Regular.ttf)
+  }
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Grold-Regular";
+}
+.fit{
+
+    background: linear-gradient(119.54deg, #277dc4de 10%, #0d2c45e5 100%);
+}
+ .pro h1{
+    padding-left: 100px;
+    line-height: 60px;
+    background: linear-gradient(119.54deg, #277dc4de 10%, #0d2c45e5 100%);
+    color: ivory;
+    
+ }
+ .pro h2{
+    line-height: 50px;
+    padding-left: 100px;
+    text-align: start;
+    color: black;
+    font-size: 20px;
+ }
+ .pro p{
+  
+    padding-left: 130px;
+    font-size: 20px;
+    color: black;
+ }
+ .pro h4{
+    padding-left: 230px;
+    font-size: 25px;
+    line-height: 150px;
+    color: rgb(21, 21, 59);
+
+ }
+ img{
+    width: 20px;
+    left: 50px;
+ }
+ 
+@media(max-width:480px){
+   .pro h1{
+      font-size: 30px;
+   }
+}
