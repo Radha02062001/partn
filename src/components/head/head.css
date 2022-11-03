@@ -4,9 +4,10 @@
   justify-content: space-around;
   background: linear-gradient(119.54deg, #000046 0%, #1cb5e0 100%);
   padding: 2%;
+  color: wheat;
   position: sticky;
+  top: 0;
 }
-
 .Topnav a {
   text-decoration: none;
   color: wheat;
