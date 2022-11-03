@@ -95,7 +95,7 @@ const Application = () => {
   }, [Errors]);
   return (
     <div
-      className="container"
+      className="container" id="go"
       style={{
         backgroundImage: `linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)),url(${background})`,
         backgroundRepeat: "no-repeat",
