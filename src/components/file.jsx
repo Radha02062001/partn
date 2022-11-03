@@ -1,7 +1,6 @@
 import React from 'react'
 import './file.css'
 import Image from "../assets/tick.png"
-import Images from "../assets/dum.jpg"
 
 const Class=()=>{
      return(
