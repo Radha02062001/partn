@@ -1,6 +1,7 @@
 import React from 'react'
 import './file.css'
 import Image from "../assets/tick.png"
+import Images from "../assets/dum.jpg"
 
 const Class=()=>{
      return(
@@ -23,9 +24,11 @@ const Class=()=>{
             <p> Our partners are our family, and any of the PDPs will tell you about the special moments<br/> 
             they spend with the our family of managers and fellow PDPs,celebrating major festivals together, <br/>
             regular meetings to share experiences and building valuable friendships.</p>
-            <h4>So, what are you waiting for? We welcome you to the Our family - join us today!
-
-</h4>
+            <h4>So, what are you waiting for? We welcome you to the Our family - join us today!</h4>
+            
+            
+            
+          
  </div>
  </div>
      )
