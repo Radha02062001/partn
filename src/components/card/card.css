@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Grold-Bold";
+}
+@font-face {
+  font-family: "Grold-Bold";
+  src: url(./assets/Fonts/Grold-Bold.ttf);
+}
+@font-face {
+  font-family: "Grold-Light";
+  src: url(./assets/Fonts/Grold-Light.ttf);
+}
+@font-face {
+  font-family: "Grold-Medium";
+  src: url(./assets/Fonts/Grold-Medium.ttf);
+}
+@font-face {
+  font-family: "Grold-SemiLight";
+  src: url(./assets/Fonts/Grold-SemiLight.ttf);
+}
+
+.cardss {
+  background: linear-gradient(119.54deg, #000046 0%, #1cb5e0 100%);
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px,
+    rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+  cursor: pointer;
+  border-radius: 2rem;
+  color: white;
+  transition: transform.3.9s;
+}
+
+.cardss:hover {
+  transform: scale(1.1);
+}
+.cardss h1 {
+  padding: 3.25rem 0 0 0;
+  font-size: 24px;
+}
+
+#crd {
+  display: flex;
+  gap: 15px;
+  justify-content: space-evenly;
+  padding: 3rem 0 3rem 0;
+}
+@media (max-width: 30rem) {
+  .cardss {
+    display: flex;
+    flex-direction: column;
+  }
+}
