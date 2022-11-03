@@ -1,7 +1,13 @@
-import React from 'react'
-import Class from './components/file';
+import React from "react";
+import Class from "./components/file";
+import Head from "./components/head/head";
 
 const App = () => {
-  return <Class/>
-}
+  return (
+    <>
+      <Head />
+      <Class />
+    </>
+  );
+};
 export default App;
