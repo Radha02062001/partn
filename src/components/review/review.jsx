@@ -3,7 +3,7 @@ import Slider from "react-slick";
 import "./review.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import unknown from "./image/user.svg";
+import unknown from "./image/unknown.png";
 import star from "./image/star.png";
 
 const Partner = () => {
@@ -21,7 +21,9 @@ const Partner = () => {
   };
   return (
     <div>
-      <h1> Partner Reviews</h1>
+      <div className="heading">
+        <h1> Partner Reviews</h1>
+      </div>
       <div className="partners">
         <Slider {...settings}>
           <div className="part">
@@ -39,7 +41,12 @@ const Partner = () => {
               </p>
               <div className="profile">
                 <div className="profileimg">
-                  <img src={unknown} width="100px" height="100px" />
+                  <img src={unknown} width="70px" height="70px" />
+                </div>
+                <div className="profilename">
+                  <h4>Vicky</h4>
+                  <h6>Chennai,Tamilnadu</h6>
+                  <img src={star} width="90px" height="25px" />
                 </div>
               </div>
             </div>
@@ -58,6 +65,16 @@ const Partner = () => {
                 caused your team to fall behind.”
               </p>
             </div>
+            <div className="profile">
+              <div className="profileimg">
+                <img src={unknown} width="70px" height="70px" />
+              </div>
+              <div className="profilename">
+                <h4>Kapildev</h4>
+                <h6>Tiruvallur,Tamilnadu</h6>
+                <img src={star} width="90px" height="25px" />
+              </div>
+            </div>
           </div>
           <div className="part">
             <h3>Anbu</h3>
@@ -73,9 +90,19 @@ const Partner = () => {
                 caused your team to fall behind.”
               </p>
             </div>
+            <div className="profile">
+              <div className="profileimg">
+                <img src={unknown} width="70px" height="70px" />
+              </div>
+              <div className="profilename">
+                <h4>Anbu</h4>
+                <h6>Chennai,Tamilnadu</h6>
+                <img src={star} width="90px" height="25px" />
+              </div>
+            </div>
           </div>
           <div className="part">
-            <h3>Kathiresan</h3>
+            <h3>Kathir </h3>
             <div>
               <p>
                 "Your team has succeeded because of your ability to build strong
@@ -87,6 +114,16 @@ const Partner = () => {
                 conversation.” “Your inability to work well with others has
                 caused your team to fall behind.”
               </p>
+            </div>
+            <div className="profile">
+              <div className="profileimg">
+                <img src={unknown} width="70px" height="70px" />
+              </div>
+              <div className="profilename">
+                <h4>Kathir</h4>
+                <h6>Chennai,Tamilnadu</h6>
+                <img src={star} width="90px" height="25px" />
+              </div>
             </div>
           </div>
           <div className="part">
@@ -103,6 +140,16 @@ const Partner = () => {
                 caused your team to fall behind.”
               </p>
             </div>
+            <div className="profile">
+              <div className="profileimg">
+                <img src={unknown} width="70px" height="70px" />
+              </div>
+              <div className="profilename">
+                <h4>Nantha Kumar</h4>
+                <h6>Namakkal,Tamilnadu</h6>
+                <img src={star} width="90px" height="25px" />
+              </div>
+            </div>
           </div>
           <div className="part">
             <h3>Naveen</h3>
@@ -117,6 +164,16 @@ const Partner = () => {
                 conversation.” “Your inability to work well with others has
                 caused your team to fall behind.”
               </p>
+            </div>
+            <div className="profile">
+              <div className="profileimg">
+                <img src={unknown} width="70px" height="70px" />
+              </div>
+              <div className="profilename">
+                <h4>Naveen</h4>
+                <h6>Tirupur,Tamilnadu</h6>
+                <img src={star} width="90px" height="25px" />
+              </div>
             </div>
           </div>
         </Slider>

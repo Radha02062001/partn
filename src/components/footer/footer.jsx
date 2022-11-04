@@ -13,7 +13,7 @@ const Bottom = () => {
           <button>Toll Free:123</button>
         </div>
         <div>
-          <button>Email: 0123@gmail.com</button>
+          <button>Email:0123@gmail.com</button>
         </div>
       </div>
       <br />

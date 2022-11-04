@@ -3,6 +3,10 @@
   margin: 0;
   padding: 0;
 }
+@font-face {
+  font-family: "Grold-Light";
+  src: url(../../assets/fonts/Grold-Light.ttf);
+}
 .partners {
   padding: 20px;
   margin: 30px;
@@ -10,9 +14,11 @@
   border: 1px solid white;
 }
 
-h1 {
+.heading h1 {
+  color: #252525;
   font-size: 40px;
   text-align: center;
+  padding-top: 30px;
 }
 .part h3 {
   font-size: 30px;
@@ -20,8 +26,29 @@ h1 {
   color: rgb(39, 38, 38);
 }
 .part p {
-  font-size: 20px;
+  font-size: 18px;
+  font-family: "Grold-Light";
+  font-weight: 600;
   color: rgb(109, 106, 106);
   line-height: 20px;
   padding: 5px;
+}
+.profile {
+  display: flex;
+  flex-direction: row;
+  padding-top: 20px;
+  align-items: center;
+  gap: 10px;
+}
+.profilname {
+  padding: 10px;
+}
+.part {
+  box-sizing: border-box;
+  border-radius: 20px;
+  margin: 40px;
+  margin-left: 20px;
+  padding: 26px;
+  box-shadow: 0px 15px 30px rgb(197 197 197);
+  gap: 20px;
 }

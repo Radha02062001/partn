@@ -4,20 +4,23 @@ import Abhi from "./components/hero/btnhero";
 import Application from "./components/apply/apply";
 import Cards from "./components/card/card";
 import Head from "./components/head/head";
+import Heads from "./components/aboutus/about";
+import Service from "./components/our service/service";
 import Partner from "./components/review/review";
-import Footer from "./components/footer/footer";
+import Bottom from "./components/footer/footer";
 
 const App = () => {
   return (
     <>
       <Head />
       <Abhi />
-
       <Class />
       <Cards />
-      <Partner />
+      <Service />
+      <Heads />
       <Application />
-      <Footer />
+      <Partner />
+      <Bottom />
     </>
   );
 };
