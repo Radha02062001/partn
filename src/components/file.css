@@ -10,11 +10,12 @@
     font-weight: 600;
 }
 .fit{
-   background-color: rgba(245, 210, 215, 0.904);
+   padding-top: 50px;
+   background-color: #f6f6f6;
 }
  .pro h1{
     padding-left: 100px;
-    line-height: 60px;
+    line-height: 80px;
     font-size: 35px;
     color:rgb(54, 50, 50);
     

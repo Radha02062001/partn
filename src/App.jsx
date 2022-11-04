@@ -10,8 +10,9 @@ const App = () => {
     <>
       <Head />
       <Abhi />
-      <Cards />
+      
       <Class />
+      <Cards />
 
       <Application />
     </>
