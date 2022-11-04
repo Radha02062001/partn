@@ -1,8 +1,9 @@
 import React from "react";
 import Slider from "react-slick";
+import "./review.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import unknown from "./image/unknown.png";
+import unknown from "./image/user.svg";
 import star from "./image/star.png";
 
 const Partner = () => {
@@ -20,185 +21,102 @@ const Partner = () => {
   };
   return (
     <div>
-      <h1>REVIEWS</h1>
-      <div className="review">
+      <h1> Partner Reviews</h1>
+      <div className="partners">
         <Slider {...settings}>
-          <div className="customers_wrapper">
-            <div className="customers">
-              <div className="cus_de">
-                <div>
-                  <img src={unknown} width="150px" height="50px" />
-                </div>
-                <div>
-                  <h2>Jhon</h2>
-                  <h5>Chennai,India</h5>
-                </div>
-              </div>
+          <div className="part">
+            <h3>Vicky</h3>
+            <div>
               <p>
-                A performance review is a documented evaluation of how
-                <br />
-                effectively a team member is meeting their goals and
-                <br />
-                responsibilities. Receiving clear, action-oriented feedback can
-                <br />
-                increase employee engagement and retention, so regular in-depth
-                <br />
-                performance reviews are important.
+                "Your team has succeeded because of your ability to build strong
+                relationships by asking for and incorporating feedback from
+                others.” "You have shown a pattern of interrupting others when
+                they are speaking in meetings. While this may be unintentional,
+                it can be helpful to show respect for your colleagues by waiting
+                until they have finished speaking before adding to the
+                conversation.” “Your inability to work well with others has
+                caused your team to fall behind.”
               </p>
-              <h3>Customer Rating</h3>
-              <div className="rating">
-                <div>
-                  <img src={star} width="240px" height="40px" />
-                </div>
-                <div>
-                  <span>4.9/5</span>
+              <div className="profile">
+                <div className="profileimg">
+                  <img src={unknown} width="100px" height="100px" />
                 </div>
               </div>
             </div>
           </div>
-          <div className="customers_wrapper">
-            <div className="customers">
-              <div className="cus_de">
-                <div>
-                  <img src={unknown} width="50px" height="50px" />
-                </div>
-                <div>
-                  <h2>Kamal</h2>
-                  <h5>Chennai,India</h5>
-                </div>
-              </div>
+          <div className="part">
+            <h3>Kapildev</h3>
+            <div>
               <p>
-                A performance review is a documented evaluation of how
-                effectively a team member is meeting their goals and
-                responsibilities. Receiving clear, action-oriented feedback can
-                increase employee engagement and retention, so regular in-depth
-                performance reviews are important.
+                "Your team has succeeded because of your ability to build strong
+                relationships by asking for and incorporating feedback from
+                others.” "You have shown a pattern of interrupting others when
+                they are speaking in meetings. While this may be unintentional,
+                it can be helpful to show respect for your colleagues by waiting
+                until they have finished speaking before adding to the
+                conversation.” “Your inability to work well with others has
+                caused your team to fall behind.”
               </p>
-              <h3>Customer Rating</h3>
-              <div className="rating">
-                <div>
-                  <img src={star} width="40px" height="40px" />
-                </div>
-                <div>
-                  <span>4.4/5</span>
-                </div>
-              </div>
             </div>
           </div>
-          <div className="customers_wrapper">
-            <div className="customers">
-              <div className="cus_de">
-                <div>
-                  <img src={unknown} width="50px" height="50px" />
-                </div>
-                <div>
-                  <h2>Sundarram</h2>
-                  <h5>Chennai,India</h5>
-                </div>
-              </div>
+          <div className="part">
+            <h3>Anbu</h3>
+            <div>
               <p>
-                A performance review is a documented evaluation of how
-                effectively a team member is meeting their goals and
-                responsibilities. Receiving clear, action-oriented feedback can
-                increase employee engagement and retention, so regular in-depth
-                performance reviews are important.
+                "Your team has succeeded because of your ability to build strong
+                relationships by asking for and incorporating feedback from
+                others.” "You have shown a pattern of interrupting others when
+                they are speaking in meetings. While this may be unintentional,
+                it can be helpful to show respect for your colleagues by waiting
+                until they have finished speaking before adding to the
+                conversation.” “Your inability to work well with others has
+                caused your team to fall behind.”
               </p>
-              <h3>Customer Rating</h3>
-              <div className="rating">
-                <div>
-                  <img src={star} width="40px" height="40px" />
-                </div>
-                <div>
-                  <span>4.8/5</span>
-                </div>
-              </div>
             </div>
           </div>
-          <div className="customers_wrapper">
-            <div className="customers">
-              <div className="cus_de">
-                <div>
-                  <img src={unknown} width="50px" height="50px" />
-                </div>
-                <div>
-                  <h2>Suresh kumar</h2>
-                  <h5>Chennai,India</h5>
-                </div>
-              </div>
+          <div className="part">
+            <h3>Kathiresan</h3>
+            <div>
               <p>
-                A performance review is a documented evaluation of how
-                effectively a team member is meeting their goals and
-                responsibilities. Receiving clear, action-oriented feedback can
-                increase employee engagement and retention, so regular in-depth
-                performance reviews are important.
+                "Your team has succeeded because of your ability to build strong
+                relationships by asking for and incorporating feedback from
+                others.” "You have shown a pattern of interrupting others when
+                they are speaking in meetings. While this may be unintentional,
+                it can be helpful to show respect for your colleagues by waiting
+                until they have finished speaking before adding to the
+                conversation.” “Your inability to work well with others has
+                caused your team to fall behind.”
               </p>
-              <h3>Customer Rating</h3>
-              <div className="rating">
-                <div>
-                  <img src={star} width="40px" height="40px" />
-                </div>
-                <div>
-                  <span>4.0/5</span>
-                </div>
-              </div>
             </div>
           </div>
-          <div className="customers_wrapper">
-            <div className="customers">
-              <div className="cus_de">
-                <div>
-                  <img src={unknown} width="50px" height="50px" />
-                </div>
-                <div>
-                  <h2>Sofiya </h2>
-                  <h5>Chennai,India</h5>
-                </div>
-              </div>
+          <div className="part">
+            <h3>Nantha Kumar</h3>
+            <div>
               <p>
-                A performance review is a documented evaluation of how
-                effectively a team member is meeting their goals and
-                responsibilities. Receiving clear, action-oriented feedback can
-                increase employee engagement and retention, so regular in-depth
-                performance reviews are important.
+                "Your team has succeeded because of your ability to build strong
+                relationships by asking for and incorporating feedback from
+                others.” "You have shown a pattern of interrupting others when
+                they are speaking in meetings. While this may be unintentional,
+                it can be helpful to show respect for your colleagues by waiting
+                until they have finished speaking before adding to the
+                conversation.” “Your inability to work well with others has
+                caused your team to fall behind.”
               </p>
-              <h3>Customer Rating</h3>
-              <div className="rating">
-                <div>
-                  <img src={star} width="40px" height="40px" />
-                </div>
-                <div>
-                  <span>4.2/5</span>
-                </div>
-              </div>
             </div>
           </div>
-          <div className="customers_wrapper">
-            <div className="customers">
-              <div className="cus_de">
-                <div>
-                  <img src={unknown} width="50px" height="50px" />
-                </div>
-                <div>
-                  <h2>Nihil Adhitya</h2>
-                  <h5>Chennai,India</h5>
-                </div>
-              </div>
+          <div className="part">
+            <h3>Naveen</h3>
+            <div>
               <p>
-                A performance review is a documented evaluation of how
-                effectively a team member is meeting their goals and
-                responsibilities. Receiving clear, action-oriented feedback can
-                increase employee engagement and retention, so regular in-depth
-                performance reviews are important.
+                "Your team has succeeded because of your ability to build strong
+                relationships by asking for and incorporating feedback from
+                others.” "You have shown a pattern of interrupting others when
+                they are speaking in meetings. While this may be unintentional,
+                it can be helpful to show respect for your colleagues by waiting
+                until they have finished speaking before adding to the
+                conversation.” “Your inability to work well with others has
+                caused your team to fall behind.”
               </p>
-              <h3>Customer Rating</h3>
-              <div className="rating">
-                <div>
-                  <img src={star} width="40px" height="40px" />
-                </div>
-                <div>
-                  <span>4.7/5</span>
-                </div>
-              </div>
             </div>
           </div>
         </Slider>
