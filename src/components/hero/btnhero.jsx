@@ -1,7 +1,7 @@
 import React from "react";
 import "./btnhero.css";
-import hard from "../hero/img/building.jpg";
-const Abhi = () => {
+//import hard from "../hero/img/building.jpg";
+const Mainhero = () => {
   return (
     <div className="hero_1">
       <h1>JoinUs</h1>
@@ -14,4 +14,4 @@ const Abhi = () => {
     </div>
   );
 };
-export default Abhi;
+export default Mainhero;
