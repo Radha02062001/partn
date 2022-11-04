@@ -1,22 +1,22 @@
 @font-face {
   font-family: "Grold-Bold";
-  src: url(./Fonts/Grold-Bold.ttf);
+  src: url(../../assets/fonts/Grold-Bold.ttf);
 }
 @font-face {
   font-family: "Grold-Light";
-  src: url(./Fonts/Grold-Light.ttf);
+  src: url(../../assets/fonts/Grold-Light.ttf);
 }
 @font-face {
   font-family: "Grold-Medium";
-  src: url(./Fonts/Grold-Medium.ttf);
+  src: url(../../assets/fonts/Grold-Medium.ttf);
 }
 @font-face {
   font-family: "Grold-Regular";
-  src: url(./Fonts/Grold-Regular.ttf);
+  src: url(../../assets/fonts/Grold-Regular.ttf);
 }
 @font-face {
   font-family: "Grold-SemiLight";
-  src: url(./Fonts/Grold-SemiLight.ttf);
+  src: url(../../assets/fonts/Grold-SemiLight.ttf);
 }
 
 * {
@@ -111,6 +111,7 @@
   background: linear-gradient(119.54deg, #000046 0%, #1cb5e0 100%);
   color: white;
 }
+
 .tree .ab p {
   font-size: 30px;
   text-align: center;

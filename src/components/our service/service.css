@@ -5,19 +5,19 @@
 }
 @font-face {
   font-family: "Grold-Bold";
-  src: url(./assets/Fonts/Grold-Bold.ttf);
+  src: url(../../assets/fonts/Grold-Bold.ttf);
 }
 @font-face {
   font-family: "Grold-Light";
-  src: url(./assets/Fonts/Grold-Light.ttf);
+  src: url(../../assets/Fonts/Grold-Light.ttf);
 }
 @font-face {
   font-family: "Grold-Medium";
-  src: url(./assets/Fonts/Grold-Medium.ttf);
+  src: url(../../assets/Fonts/Grold-Medium.ttf);
 }
 @font-face {
   font-family: "Grold-SemiLight";
-  src: url(./assets/Fonts/Grold-SemiLight.ttf);
+  src: url(../../assets/Fonts/Grold-SemiLight.ttf);
 }
 .head {
   font-family: "Grold-Light";
