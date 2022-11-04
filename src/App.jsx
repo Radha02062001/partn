@@ -12,7 +12,6 @@ const App = () => {
       <Abhi />
       <Cards />
       <Class />
-
       <Application />
     </>
   );
