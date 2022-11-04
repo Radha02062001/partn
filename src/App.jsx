@@ -12,9 +12,10 @@ const App = () => {
     <>
       <Head />
       <Abhi />
-      <Cards />
+      
       <Class />
-      <Partner />
+      <Cards />
+
       <Application />
       <Footer />
     </>
