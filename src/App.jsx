@@ -1,26 +1,20 @@
 import React from "react";
-import Class from "./components/file";
-import Abhi from "./components/hero/btnhero";
-import Application from "./components/apply/apply";
-import Cards from "./components/card/card";
 import Head from "./components/head/head";
-import Heads from "./components/aboutus/about";
+import About from "./components/aboutus/about";
 import Service from "./components/our service/service";
-import Partner from "./components/review/review";
-import Bottom from "./components/footer/footer";
+import Home from "./components/Pages/Home";
+import { Route, Routes } from "react-router-dom";
 
 const App = () => {
   return (
     <>
       <Head />
-      <Abhi />
-      <Class />
-      <Cards />
-      <Service />
-      <Heads />
-      <Application />
-      <Partner />
-      <Bottom />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/Home" element={<Home />} />
+        <Route path="/Service" element={<Service />} />
+        <Route path="/About" element={<About />} />
+      </Routes>
     </>
   );
 };
