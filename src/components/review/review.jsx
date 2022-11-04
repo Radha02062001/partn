@@ -2,7 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import unknown from "./image/unknownicon.jpg";
+import unknown from "./image/unknown.png";
 import star from "./image/star.png";
 
 const Partner = () => {
@@ -11,7 +11,7 @@ const Partner = () => {
     centerMode: true,
     infinite: true,
     centerPadding: "60px",
-    slidesToShow: 3,
+    slidesToShow: 2,
     speed: 500,
     dots: true,
     autoplay: true,
@@ -36,9 +36,13 @@ const Partner = () => {
               </div>
               <p>
                 A performance review is a documented evaluation of how
+                <br />
                 effectively a team member is meeting their goals and
+                <br />
                 responsibilities. Receiving clear, action-oriented feedback can
+                <br />
                 increase employee engagement and retention, so regular in-depth
+                <br />
                 performance reviews are important.
               </p>
               <h3>Customer Rating</h3>

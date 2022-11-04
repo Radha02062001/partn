@@ -1,42 +1,44 @@
 @font-face{
     font-family: "Grold-Regular";
-    src:url(./Font/Grold-Regular.ttf)
+    src:url(../assets/fonts/Grold-Regular.ttf)
   }
 *{
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
     font-family: "Grold-Regular";
+    font-weight: 600;
 }
 .fit{
-
-    background: linear-gradient(119.54deg, #277dc4de 10%, #0d2c45e5 100%);
+   background-color: rgba(245, 210, 215, 0.904);
 }
  .pro h1{
     padding-left: 100px;
     line-height: 60px;
-    background: linear-gradient(119.54deg, #277dc4de 10%, #0d2c45e5 100%);
-    color: ivory;
+    font-size: 35px;
+    color:rgb(54, 50, 50);
     
  }
  .pro h2{
-    line-height: 50px;
+    line-height: 70px;
     padding-left: 100px;
     text-align: start;
-    color: black;
-    font-size: 20px;
+    color: rgb(75, 70, 70);
+    font-size: 30px;
+   
  }
  .pro p{
   
     padding-left: 130px;
-    font-size: 20px;
-    color: black;
+    font-size: 18px;
+    color: rgb(109, 106, 106);
+    
  }
  .pro h4{
     padding-left: 230px;
     font-size: 25px;
     line-height: 150px;
-    color: rgb(21, 21, 59);
+    color: rgb(54, 50, 50);
 
  }
  img{

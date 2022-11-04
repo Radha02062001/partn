@@ -1,0 +1,34 @@
+.Topnav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: linear-gradient(119.54deg, #000046 0%, #1cb5e0 100%);
+  padding: 2%;
+  color: wheat;
+  position: sticky;
+  top: 0;
+}
+.Topnav a {
+  text-decoration: none;
+  color: wheat;
+  font-size: x-large;
+}
+
+button {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  border: none;
+  line-height: 50px;
+  font-size: 14px;
+  font-weight: 600;
+  height: 50px;
+  padding: 0 2rem;
+  color: #c07a41;
+  letter-spacing: 0;
+  color: #fff;
+  background-color: #5c39298e;
+  box-shadow: 0 1px 3px 0 rgb(0 0 0 / 12%);
+  border-radius: 10px;
+}
