@@ -3,15 +3,19 @@ import Mainhero from "../hero/btnhero";
 import Class from "../file";
 import Cards from "../card/card";
 import Application from "../apply/apply";
-import Head from "../head/head";
+import Partner from "../review/review";
+import Bottom from "../footer/footer";
 const Home = () => {
   return (
     <>
-    <Mainhero />
-      <Class/>
-      <Cards/>
-      <Application/></>
-  )
-}
+      <Mainhero />
+      <Class />
+      <Cards />
+      <Application />
+      <Partner />
+      <Bottom />
+    </>
+  );
+};
 
 export default Home;
