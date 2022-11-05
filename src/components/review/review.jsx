@@ -12,7 +12,7 @@ const Partner = () => {
     centerMode: true,
     infinite: true,
     centerPadding: "60px",
-    slidesToShow: 2,
+    slidesToShow: 1,
     speed: 500,
     dots: true,
     autoplay: true,
