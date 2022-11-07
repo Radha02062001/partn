@@ -1,5 +1,5 @@
 import React from "react";
-import "../AboutUs/about.css";
+import "./about.css";
 import iconone from "../../assets/Images/bu_sy.webp";
 import icontwo from "../../assets/Images/loc_ation.jpg";
 import iconthree from "../../assets/Images/hap_py.jpg";
